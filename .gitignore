@@ -1,0 +1,9 @@
+.vscode
+.history
+.build
+.releases
+.venv
+_*.*
+pyproject.toml
+poetry.lock
+.env
