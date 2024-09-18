@@ -32,6 +32,23 @@ pyenv update
 ```
 After installing the required versions, re-enter (close and open) the console and execute `pyenv update` to download the default mirrors
 
+## How-to build installer for Python security release
+
+Let's do this using the example of the version Python 3.11.10
+
+> [!IMPORTANT]
+> Actually, all this is written in "Python-3.11.10\Tools\msi\README.txt"
+
+1. Download sources: Gzipped or XZ compressed source tarball - for example https://www.python.org/ftp/python/3.11.10/Python-3.11.10.tgz
+2. Unpack: if use WinRAR - select "Extract here..." in context menu (right click on file). If use 7zip - twice - at first unpacked Python-3.11.10.tar file, and then unpack it here
+3. Goto to "Python-3.11.10\Tools\msi\" and call from commandline `buildrelease.bat -x64`
+
+> [!WARNING]
+> Most likely, you will also need to install the required version of Visual Studio build tools
+
+4. After finishing, the python installer files will be at "Python-3.11.10\PCbuild\amd64\en-us\"
+
+
 
 ## Updates
 
