@@ -19,6 +19,9 @@ Example:
 
 You can also check the files from the mirror on VirusTotal, they should be the same :)
 
+> [!CAUTION]
+> Some antiviruses on VirusTotal find a virus in the created installers... I don't know how to overcome this - I will be glad to receive advice (:
+
 ## How-to use in pyenv-win
 
 Execute in Windows Terminal (or PowerShell)
@@ -29,8 +32,6 @@ pyenv update
 ```
 After installing the required versions, re-enter (close and open) the console and execute `pyenv update` to download the default mirrors
 
-> [!CAUTION]
-> Some antiviruses on VirusTotal find a virus in the created installers... I don't know how to overcome this - I will be glad to receive advice (:
 
 ## Updates
 
