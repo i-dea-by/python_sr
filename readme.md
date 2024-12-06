@@ -55,6 +55,11 @@ Let's do this using the example of the version Python 3.11.10
 
 ## Updates
 
+### 2024-12-06
+
+- Python 3.10.16 security release
+- Python 3.11.11 security release
+
 ### 2024-09-18
 
 - Python 3.10.15 security release
