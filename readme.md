@@ -46,6 +46,9 @@ Let's do this using the example of the version Python 3.11.10
 > [!WARNING]
 > Most likely, you will also need to install the required version of Visual Studio build tools
 
+> [!WARNING]
+> ACHTUNG! The path to the assembly files must not contain a directory with name started with dot
+
 4. After finishing, the python installer files will be at "Python-3.11.10\PCbuild\amd64\en-us\"
 
 
